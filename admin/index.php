@@ -1,12 +1,18 @@
 <?php
 
-// Require database & th�ng tin chung.
+// Require database & thông tin chung.
 require_once 'core/init.php';
 
 // Require header.
 require_once 'includes/header.php';
 
-echo '<h1>Hello PHP Developer.</h1>';
+// Nếu user đăng nhập.
+if ( $user ) {}
+else { // Nếu không đăng nhập.
+	// Hiện thị form đăng nhập.
+	require_once 'templates/signin.php';
+}
+
 // Require footer.
 require_once 'includes/footer.php';
 ?>

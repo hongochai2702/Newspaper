@@ -11,7 +11,7 @@ $db->connect();
 $db->set_char('utf8');
 
 // Thông tin chung.
-$_DOMAIN = 'http://php.dev/Newspaper';
+$_DOMAIN = 'http://php.dev/Newspaper/admin/';
 
 date_default_timezone_get('Asia/Ho_Chi_Minh');
 $date_current = '';
